@@ -3,9 +3,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <meta name="description" content="{{ renderData.description or description or metadata.description }}">
-    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
 
+    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    
     {% set styles %}src/_includes/style.scss{% endset %}
     <style amp-custom>
       {{ styles | sass | stripimportant | cssmin | safe }}
