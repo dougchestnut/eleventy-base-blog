@@ -45,6 +45,7 @@ module.exports = function(eleventyConfig) {
   });
   eleventyConfig.addFilter("stripimportant", function(css){
     css = css+'';
+    css = css.split("@charset \"UTF-8\";").join();
     return css.split("!important").join();
   });
 

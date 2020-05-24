@@ -13,9 +13,8 @@
     "url": "git://github.com/11ty/eleventy-base-blog.git"
   },
   "author": {
-    "name": "Zach Leatherman",
-    "email": "zachleatherman@gmail.com",
-    "url": "https://zachleat.com/"
+    "name": "Doug Chestnut",
+    "email": "dougchestnut@gmail.com"
   },
   "license": "MIT",
   "bugs": {
@@ -31,10 +30,6 @@
     "clean-css": "^4.2.3",
     "luxon": "^1.21.3",
     "markdown-it": "^8.4.2",
-    "markdown-it-anchor": "^5.2.5",
-    "node-sass": "^4.14.1"
-  },
-  "dependencies": {
-    "bulma": "^0.8.2"
+    "markdown-it-anchor": "^5.2.5"
   }
 }
