@@ -11,5 +11,17 @@
   "author": {
     "name": "Your Name Here",
     "email": "youremailaddress@example.com"
+  },
+  "social": {
+    "twitter": { "id":"test" },
+    "facebook": { "id":"test" },
+    "instagram":{ "id":"test" },
+    "email":{
+      "to":"email@sample.com",
+      "cc":"cc@sample.com",
+      "bcc":"bcc@sample.com",
+      "subject":"testemail",
+      "body":"body"
+    }
   }
 }
